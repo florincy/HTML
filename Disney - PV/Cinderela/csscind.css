@@ -1,0 +1,19 @@
+@charset ("UTF-8")
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+#b {
+	background:#C6E2FF;
+	padding: 20px;
+	font-family: 'Lobster', cursive;
+	margin: auto;
+}
+a {
+	text-decoration: none;
+	color:#104E8B;
+}
+h2 {
+	color:#104E8B;
+}
+
+h3{
+	color: #4A708B;
+}

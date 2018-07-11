@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@font-face{
+  font-family: 'disney';
+  src: url("dis.otf");
+}
+#B {
+	margin: auto;
+	background: #ffe6ee;
+	color: #191970;
+	/* topo, direita, em baixo, esquerda;
+	ou 
+	topo e laterais;
+	*/
+}
+#m {
+	background:#C71585;
+	font-size: 25px;
+	border: dashed #F08080;
+}
+ul li {
+	display: inline;
+	padding-right: 15px;
+	 
+}
+
+nav a{
+	text-decoration: none;
+	color: #E6E6FA;
+}
+h1{
+ 	color:#C71585;
+ 	font-family: 'disney';
+ 	font-size: 100px;
+ 	margin-left: 450px;
+ 	margin-right: 450px;
+}
+aside a {
+	color: #C71585;
+	text-decoration: none;
+
+}
+#m a:hover {
+	color:#40E0D0;
+	text-decoration: line-through;
+}
+aside  a:hover{
+	color: #00cccc;
+	font-size: 30px;
+}
+footer {
+	background: #DB7093;
+	color: #E6E6FA;
+}
+ ol li {
+ 	font-size: 25px;
+ 	background: #ffb3ff;
+ 	border: dashed #F08080;
+ }
+ section{
+ 	background: #FFBBFF;
+ 	margin-right: 600px;
+ 	margin-left: 600px;
+ 	padding: auto;
+ }
+ article {
+ 	background: #EEAEEE;
+ 	margin-right: 600px;
+ 	margin-left: 600px;
+ 	padding: auto;
+ }
+img.ab:hover {
+	filter:grayscale(20);	
+}
