@@ -1,0 +1,12 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Chela+One');
+
+#t1, td{
+	border: 10px inset blue;
+	font-size: 20px;
+}
+caption {
+border: 6px dashed #00CED1;
+background:  #ADD8E6;
+font-family: 'Chela One', cursive;
+}
