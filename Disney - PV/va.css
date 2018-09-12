@@ -3,19 +3,12 @@
   font-family: 'disney';
   src: url("dis.otf");
 }
-#B {
-	margin: auto;
-	background: #ffe6ee;
-	color: #191970;
-	/* topo, direita, em baixo, esquerda;
-	ou 
-	topo e laterais;
-	*/
-}
+
 #m {
 	background:#C71585;
 	font-size: 25px;
 	border: dashed #F08080;
+	z-index: 4;
 }
 ul li {
 	display: inline;
@@ -27,12 +20,12 @@ nav a{
 	text-decoration: none;
 	color: #E6E6FA;
 }
-h1{
+h2{
  	color:#C71585;
  	font-family: 'disney';
  	font-size: 100px;
- 	margin-left: 450px;
- 	margin-right: 450px;
+ 	text-align: center;
+ 	background: url(princesas2.jpg);
 }
 aside a {
 	color: #C71585;
@@ -70,4 +63,7 @@ footer {
  }
 img.ab:hover {
 	filter:grayscale(20);	
+}
+body{
+	background: #ffe6ee;
 }
