@@ -1,0 +1,11 @@
+
+html{
+	background: url(fundo.gif);
+	background-size: 100px;
+}
+
+label, input [type=submit]{
+	display: block;
+	
+	font-size: 30px;
+}

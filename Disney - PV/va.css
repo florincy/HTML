@@ -25,7 +25,7 @@ h2{
  	font-family: 'disney';
  	font-size: 100px;
  	text-align: center;
- 	background: url(princesas2.jpg);
+ 	
 }
 aside a {
 	color: #C71585;
@@ -66,4 +66,8 @@ img.ab:hover {
 }
 body{
 	background: #ffe6ee;
+}
+
+#a {
+	text-align: center;
 }
