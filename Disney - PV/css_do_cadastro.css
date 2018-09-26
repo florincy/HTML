@@ -4,8 +4,34 @@ html{
 	background-size: 100px;
 }
 
-label, input [type=submit]{
+label,input[type="submit"]{
 	display: block;
 	
-	font-size: 30px;
+}
+form {
+	background: #BC8F8F;
+	margin: 100px 400px;
+	padding: 20px;
+	border: 5px inset #FF1493;
+}
+
+#enviar{
+	background: #AB82FF;
+	cursor: pointer;
+}
+input {
+	color: #551A8B;
+}
+button{
+	color: #551A8B;
+	background: #AB82FF;
+	cursor: pointer;
+}
+textarea{
+	color: #551A8B;
+
+}
+h2{
+	text-align: center;
+	color: #551A8B;
 }

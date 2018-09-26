@@ -3,11 +3,14 @@
 <head>
 	<title>Cadastro</title>
 	<link rel="stylesheet" type="text/css" href="css_do_cadastro.css">
+	<meta charset="utf-8">
 </head>
 <body>
 <header>
+	<h2>Cadastro</h2>
 	<form name="Cadastro" method="get">
-			<label for="email">
+	<div id="oi">
+			<label for="email" id="email">
 					E-mail:
 			</label>
 			<input type="text" id="email" placeholder="Digitar E-mail">
@@ -28,8 +31,15 @@
 			</label>
 			<input type="checkbox" name="doce" value="BRIGADEIRO"/>Brigadeiro
 			<input type="checkbox" name="doce" value="BOLO" /> Bolo
+			<input type="checkbox" name="doce" value="PALHA ITALIANA" /> Palha italiana
+			<label>Deixe seu comentário</label>
+			<textarea name="caixadetexto" placeholder="Comentário"></textarea>
+			<input type="submit" name="Enviar" placeholder="Enviar tudo" id="enviar" /> 
+			<button type="submit" name="botão"> Clique aqui</button>
+			</div>
 	</form>
 </header>
+
 
 </body>
 </html>
