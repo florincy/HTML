@@ -1,0 +1,38 @@
+
+.menu{
+
+	list-style-type: none;
+	border: 2px inside pink;
+	margin: 0 auto;
+
+}
+.menu li{
+	float: left;
+	position: relative;
+	background:pink;
+	border-right: 5px solid #B6115E;
+	padding: 10px 10px 10px 15px;
+	background-color: #FBB7D3;
+	height: 28px;
+	width: 100px;
+	text-align: center;
+	font-size: 15px;
+	list-style-type: none;
+}
+#foto{
+	position: absolute;
+	top: 250px;
+	right: 250px;
+	border-top: #B6115E;	
+}
+
+.menu li:hover ul{
+	display: block;
+}
+.menu li ul{
+	position: absolute;
+	list-style-type: none;
+	top: 30px;
+	left: -40px;
+	display: none;
+}
