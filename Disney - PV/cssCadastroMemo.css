@@ -1,0 +1,6 @@
+html{
+	background-color: pink;
+}
+label, input[type="submit"]{
+	display: block;
+}

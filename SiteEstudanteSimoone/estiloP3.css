@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Spicy+Rice');
+.i{
+	height: 300px;
+	width: 260px;
+	border: inset pink;
+}
+#im{
+	text-align: center;
+}
+#s1{
+	background-color: orange;
+}
+#s2{
+	background-color: green;
+}
+html{
+	background-image: url(fundo.jpeg);
+}
+ul li{
+	display: inline-block;
+	padding: 5px;
+
+}
+#menu{
+	background-color: #DAA0DD;
+	font-size: 25px;
+	text-decoration: none;
+	text-align: center;
+	border: dashed blue;
+}
+.logo{
+	height: 40px;
+	width: 40px;
+}
+#s3{
+	background-color: pink;
+}
+#imm{
+	width: 300px;
+	height: 450px;
+	border: dashed orange;
+}
+#titulo{
+	font-size: 50px;
+	font-family: 'Spicy Rice', cursive;
+	text-align: center;
+	color: 	#9400D3;
+}
+#s4{
+	background-color: #DB7093;
+}
