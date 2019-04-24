@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<title>Exercicio PW</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		function muda(){
+			var paragrafo = document.getElementById('paragrafo');
+			if(paragrafo.innerHTML=="JS da derrota"){
+				paragrafo.innerHTML="JS da vitória";
+				paragrafo.style.color="green";
+				paragrafo.style.textDecoration = "underline overline";
+		} else {
+			paragrafo.innerHTML="JS da derrota";
+			paragrafo.style.color="red";
+			paragrafo.style.textDecoration = "line-through";
+		}
+	}
+		function escreve(){
+			var caixa = document.getElementById('caixa2');
+			for (var i = 0; i < 10; i++) {
+				caixa.innerHTML = caixa.innerHTML+ "<br>" + i;
+
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1 style="color: green">Exercício JS</h1>
+	<p id="paragrafo">JS da vitória</p>
+	<br>
+	<div>Caixa1</div>
+	<div id="caixa2">Caixa2</div>
+	<div onmouseover="muda()">Caixa3</div>
+	<br>
+	<button type="button" onclick="alert('Esse é um alerta irritante')">Botão</button>
+	<button type="button" onclick="escreve()">Escreve Número</button>
+</body>
+</html>

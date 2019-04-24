@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Desenho</title>
+</head>
+<body>
+	<canvas id="desenho_principal">Seu navegador está desatualizado</canvas>
+	<script type="text/javascript">
+		var desenho_principal = document.getElementById('desenho_principal');
+		var conteudo_desenho = desenho_principal.getContext('2d');
+		conteudo_desenho.fillStyle = 'pink';
+		conteudo_desenho.fillRect(0,0,80,100);
+	</script>
+</body>
+</html>
