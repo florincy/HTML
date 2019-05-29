@@ -1,0 +1,10 @@
+.areaImage{
+	float:left;
+    margin-top:10px;
+}
+
+.areaText p{
+	 float:left;
+    max-width:500px;
+    margin-left:10px;
+}
