@@ -1,10 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta&display=swap')
+
+
+*{margin: 0; padding: 0;}
+
+html{
+	font-family: 'Pacifico', cursive;
+	background-color: #fdeeed;
+}
+h1{
+	font-size: 80px;
+	text-align: center;
+}
+h2{
+	font-size: 45px;
+	background-color: #D8BFD8;
+}
+.menu{
+border:1px solid #D8BFD8; 
+float:left; 
+font-size: 40px;
+}
+
+.menu li{
+position:relative; 
+border-right:1px solid #c0c0c0; 
+border-bottom: 1px solid #c0c0c0; 
+}
+.menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+ 
+.menu li a:hover{
+background:#333; 
+color:#fff; 
+-moz-box-shadow: 0px 3px 10px 0 #CCC; 
+-webkit-box-shadow:0 3px 10px 0 #ccc; 
+text-shadow:0px 0px 5px #fff; 
+}
+
+.menu li  ul{
+position:absolute; 
+top:0px; 
+left:320px;
+background-color:#D8BFD8; 
+display:none;
+}  
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+.menu li ul li{
+border:1px solid #c0c0c0; 
+display:block; 
+width:420px;
+}
 .areaImage{
 	float:left;
     margin-top:10px;
 }
 
 .areaText p{
-	 float:left;
+	float:left;
     max-width:500px;
-    margin-left:10px;
+    margin-left:20px;
+    font-size: 35px;
+
+}
+h4{
+	font-size: 40px;
+	text-align: center;
+}
+ul{
+	list-style: none;
+}
+#contato{
+	position: relative;
+	top: 500px;
+	left: -300px;
+	font-size: 35px;
 }
